@@ -11,7 +11,7 @@ namespace DemoGitWebapp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            System.Diagnostics.Trace.TraceInformation("Invoking from Default page");
         }
     }
 }
